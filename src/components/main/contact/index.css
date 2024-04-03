@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+ box-sizing: border-box;
+}
+
+.contact {
+ width: 100%;
+}
+
+.contact .contain {
+ width: 100%;
+ height: auto;
+ background-color: #000000;
+}
+
+.contact .contain .header {
+ margin: 0 auto;
+ max-width: 768px;
+ position: relative;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 40px;
+ font-weight: 700;
+ line-height: 1;
+ text-align: center;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-image: linear-gradient(
+  150deg,
+  #ff6501 0%,
+  rgba(255, 255, 255, 1) 100%
+ );
+ padding-top: 30px;
+}
+
+.contact .contain .body {
+ max-width: 768px;
+ margin: 0 auto;
+}
+
+.contact .contain .body .social {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ gap: 20px;
+ margin-top: 30px;
+}
+
+.contact .contain .body .social .one {
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 30px;
+ font-weight: 700;
+ color: aliceblue;
+}
+
+.contact .contain .body .social .two {
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+}
+
+.contact .contain .body .social .two .logo {
+ width: 40px;
+ height: 40px;
+ color: #ea34da;
+ cursor: pointer;
+}
+
+.contact .contain .body .social .two .detail {
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 30px;
+ font-weight: 700;
+ color: aliceblue;
+ cursor: pointer;
+}
+
+.contact .contain .body .social .three {
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+}
+
+.contact .contain .body .social .three .logo {
+ width: 40px;
+ height: 40px;
+ color: #00ffdc;
+ cursor: pointer;
+}
+
+.contact .contain .body .social .three .detail {
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 30px;
+ font-weight: 700;
+ color: aliceblue;
+ cursor: pointer;
+}
+
+.contact .contain .body .social .four {
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+}
+
+.contact .contain .body .social .four .logo {
+ width: 40px;
+ height: 40px;
+ color: #4267b2;
+ cursor: pointer;
+}
+
+.contact .contain .body .social .four .detail {
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 30px;
+ font-weight: 700;
+ color: aliceblue;
+ cursor: pointer;
+}
+
+.contact .contain .body .media .description {
+ margin-top: 20px;
+ font-size: 16px;
+ line-height: 1.6;
+ font-weight: 300;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ text-align: center;
+ color: #7b849f;
+}
+
+.contact .contain .body .media .button {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ gap: 30px;
+ max-width: 510px;
+ margin: 20px auto 0 auto;
+}
+
+.contact .contain .body .media .button .one {
+ width: 230px;
+ height: 60px;
+ background-color: #28ae43;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+ padding: 20px;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 18px;
+ font-weight: 600;
+ color: aliceblue;
+ cursor: pointer;
+}
+
+.contact .contain .body .media .button .one:hover {
+ width: 230px;
+ height: 60px;
+ background-color: #ff6501;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+ padding: 20px;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 18px;
+ font-weight: 600;
+ color: aliceblue;
+ cursor: pointer;
+}
+
+.contact .contain .body .media .button .one .logo {
+ width: 30px;
+ height: 30px;
+ color: aliceblue;
+}
+
+.contact .contain .body .media .button .two {
+ width: 230px;
+ height: 60px;
+ background-color: #192655;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+ padding: 20px;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 18px;
+ font-weight: 600;
+ color: aliceblue;
+ cursor: pointer;
+}
+
+.contact .contain .body .media .button .two:hover {
+ width: 230px;
+ height: 60px;
+ background-color: #ff6501;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+ padding: 20px;
+ align-items: center;
+ justify-content: center;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 18px;
+ font-weight: 600;
+ color: aliceblue;
+ cursor: pointer;
+}
+
+.contact .contain .body .media .button .logo {
+ width: 30px;
+ height: 30px;
+ color: aliceblue;
+}
+
+.body-email {
+ width: 100%;
+ border-radius: 5px;
+ margin: 10px auto 0 auto;
+ border-color: rgb(179, 179, 179);
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ .contact .contain .header {
+  margin: 0 auto;
+  max-width: 668px;
+  position: relative;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+   150deg,
+   #ff6501 0%,
+   rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 30px;
+ }
+
+ .contact .contain .body {
+  max-width: 668px;
+  margin: 0 auto;
+ }
+
+ .contact .contain .body .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+ }
+
+ .contact .contain .body .social .one {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .social .two {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+ }
+
+ .contact .contain .body .social .two .logo {
+  width: 30px;
+  height: 30px;
+  color: #ea34da;
+ }
+
+ .contact .contain .body .social .two .detail {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .social .three {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+ }
+
+ .contact .contain .body .social .three .logo {
+  width: 30px;
+  height: 30px;
+  color: #00ffdc;
+ }
+
+ .contact .contain .body .social .three .detail {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .social .four {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+ }
+
+ .contact .contain .body .social .four .logo {
+  width: 30px;
+  height: 30px;
+  color: #4267b2;
+ }
+
+ .contact .contain .body .social .four .detail {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .media .description {
+  max-width: 568px;
+  margin: 20px auto 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  color: #7b849f;
+ }
+
+ .contact .contain .body .media .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 510px;
+  margin: 20px auto 0 auto;
+ }
+
+ .contact .contain .body .media .button .one {
+  width: 230px;
+  height: 60px;
+  background-color: #28ae43;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+ }
+
+ .contact .contain .body .media .button .one:hover {
+  width: 230px;
+  height: 60px;
+  background-color: #ff6501;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+ }
+
+ .contact .contain .body .media .button .one .logo {
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .media .button .two {
+  width: 230px;
+  height: 60px;
+  background-color: #192655;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+ }
+
+ .contact .contain .body .media .button .two:hover {
+  width: 230px;
+  height: 60px;
+  background-color: #ff6501;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+ }
+
+ .contact .contain .body .media .button .logo {
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
+ }
+}
+
+@media (min-width: 356px) and (max-width: 767px) {
+ .contact .contain .header {
+  margin: 0 auto;
+  max-width: 306px;
+  position: relative;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+   150deg,
+   #ff6501 0%,
+   rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 30px;
+ }
+
+ .contact .contain .body {
+  max-width: 306px;
+  margin: 0 auto;
+ }
+
+ .contact .contain .body .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 30px;
+ }
+
+ .contact .contain .body .social .one {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .social .two {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+ }
+
+ .contact .contain .body .social .two .logo {
+  width: 16px;
+  height: 16px;
+  color: #ea34da;
+ }
+
+ .contact .contain .body .social .two .detail {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .social .three {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+ }
+
+ .contact .contain .body .social .three .logo {
+  width: 16px;
+  height: 16px;
+  color: #00ffdc;
+ }
+
+ .contact .contain .body .social .three .detail {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .social .four {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+ }
+
+ .contact .contain .body .social .four .logo {
+  width: 16px;
+  height: 16px;
+  color: #4267b2;
+ }
+
+ .contact .contain .body .social .four .detail {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .media .description {
+  max-width: 306px;
+  margin: 20px auto 0 auto;
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  color: #7b849f;
+ }
+
+ .contact .contain .body .media .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  max-width: 306px;
+  margin: 20px auto 0 auto;
+ }
+
+ .contact .contain .body .media .button .one {
+  width: 130px;
+  height: 50px;
+  background-color: #28ae43;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+ }
+
+ .contact .contain .body .media .button .one:hover {
+  width: 130px;
+  height: 50px;
+  background-color: #ff6501;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+ }
+
+ .contact .contain .body .media .button .one .logo {
+  width: 20px;
+  height: 20px;
+  color: aliceblue;
+ }
+
+ .contact .contain .body .media .button .two {
+  width: 130px;
+  height: 50px;
+  background-color: #192655;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+ }
+
+ .contact .contain .body .media .button .two:hover {
+  width: 130px;
+  height: 50px;
+  background-color: #ff6501;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+ }
+
+ .contact .contain .body .media .button .logo {
+  width: 20px;
+  height: 20px;
+  color: aliceblue;
+ }
+}

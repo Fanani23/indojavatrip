@@ -1,0 +1,1099 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+ box-sizing: border-box;
+}
+
+.about {
+ width: 100%;
+ padding-top: 60px;
+}
+
+.about .contain {
+ width: 100%;
+ height: auto;
+ position: relative;
+ background-color: #000000;
+ box-shadow: 3px -9px 18px 26px rgba(0, 0, 0, 1);
+ -webkit-box-shadow: 3px -9px 18px 26px rgba(0, 0, 0, 1);
+ -moz-box-shadow: 3px -9px 18px 26px rgba(0, 0, 0, 1);
+}
+
+.about .contain .major {
+ max-width: 1024px;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.about .contain .major .title {
+ max-width: 768px;
+ position: relative;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 40px;
+ font-weight: 700;
+ line-height: 1;
+ text-align: center;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-image: linear-gradient(
+  150deg,
+  #ff6501 0%,
+  rgba(255, 255, 255, 1) 100%
+ );
+ padding-top: 60px;
+ opacity: 0;
+ transition: opacity 0.5s ease;
+}
+
+.about .contain .major .title.slide-in {
+ opacity: 1;
+}
+
+.about .contain .major .brand {
+ position: relative;
+ max-width: 1280px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ z-index: 1;
+}
+
+.about .contain .major .brand .brand {
+ width: 1124px;
+ height: 568px;
+ margin: 60px auto 30px auto;
+ z-index: 2;
+}
+
+.about .contain .major .brand .logo {
+ width: 1025px;
+ height: 222px;
+ position: relative;
+ margin: -240px 0 0 0;
+ z-index: 2;
+}
+
+.about .contain .brand .circle {
+ position: relative;
+ width: 500px;
+ height: 500px;
+ border-radius: 50%;
+ background-color: transparent;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: -600px;
+ z-index: 3;
+}
+
+.about .contain .brand .circular {
+ position: absolute;
+ width: 450px;
+ height: 450px;
+ background-color: transparent;
+ background-size: cover;
+ border-radius: 50%;
+ filter: brightness(1.5) contrast(1.5);
+}
+
+.about .contain .brand .plane {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ left: 50%;
+ font-size: 30px;
+ transform-origin: 0 250px;
+ animation: circularMove 10s linear infinite;
+ color: #ffffff;
+}
+
+.about .contain .brand .plane .ico {
+ rotate: (90deg);
+}
+
+@keyframes circularMove {
+ 0% {
+  transform: rotate(0deg);
+ }
+ 100% {
+  transform: rotate(360deg);
+ }
+}
+
+.about .contain .maps-legend {
+ max-width: 1124px;
+ margin: -60px auto 0 auto;
+ height: auto;
+}
+
+.about .contain .maps-legend h3 {
+ max-width: 114px;
+ font-size: 20px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 600;
+ color: #ffffff;
+ text-align: left;
+ padding: 12px;
+ border: 1px solid #ffffff;
+ border-radius: 10px;
+ text-align: center;
+}
+
+.about .contain .maps-legend .list {
+ max-width: 768px;
+ padding: 0px 20px 0 20px;
+}
+
+.about .contain .maps-legend .list .one h4 {
+ max-width: 130px;
+ font-size: 16px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 600;
+ color: #ffffff;
+ text-align: left;
+ padding: 3px 12px 6px 12px;
+ margin: 0;
+ border: 1px solid #ffffff;
+ border-radius: 10px;
+ background-color: #c00000;
+ text-align: center;
+}
+
+.about .contain .maps-legend .list .one h5 {
+ max-width: 768px;
+ font-size: 14px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 300;
+ color: #ffffff;
+ text-align: left;
+ padding: 3px 30px 6px 30px;
+ margin: 5px 0 0 0;
+ border-radius: 10px;
+ background-color: transparent;
+}
+
+.about .contain .maps-legend .list .two h4 {
+ max-width: 130px;
+ font-size: 16px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 600;
+ color: #ffffff;
+ text-align: left;
+ padding: 3px 12px 6px 12px;
+ margin: 10px 0 0 0;
+ border: 1px solid #ffffff;
+ border-radius: 10px;
+ background-color: #1b2242;
+ text-align: center;
+}
+
+.about .contain .maps-legend .list .two h5 {
+ max-width: 768px;
+ font-size: 14px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 300;
+ color: #ffffff;
+ text-align: left;
+ padding: 3px 30px 6px 30px;
+ margin: 5px 0 0 0;
+ border-radius: 10px;
+ background-color: transparent;
+}
+
+.about .contain .maps-legend .list .three h4 {
+ max-width: 230px;
+ font-size: 16px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 600;
+ color: #ffffff;
+ text-align: left;
+ padding: 3px 12px 6px 12px;
+ margin: 10px 0 0 0;
+ border: 1px solid #ffffff;
+ border-radius: 10px;
+ background-color: #ffbd0a;
+ text-align: center;
+}
+
+.about .contain .maps-legend .list .three h5 {
+ max-width: 768px;
+ font-size: 14px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 300;
+ color: #ffffff;
+ text-align: left;
+ padding: 3px 30px 6px 30px;
+ margin: 5px 0 0 0;
+ border-radius: 10px;
+ background-color: transparent;
+}
+
+.about .contain .major .menu {
+ max-width: 984px;
+}
+
+.about .contain .major .menu .description {
+ margin: 30px auto 0 auto;
+ max-width: 784px;
+ font-size: 16px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 300;
+ color: #7b849f;
+ text-align: center;
+}
+
+.about .contain .major .menu .swiper {
+ margin: 10px auto 0px auto;
+ max-width: 984px;
+}
+
+.about .contain .major .menu .swiper .item {
+ gap: 20px;
+ padding: 0px 0px 60px 0px;
+ width: 306px;
+}
+
+.about .contain .major .menu .swiper .item .background {
+ width: 310px;
+ height: 499px;
+ background: linear-gradient(
+  0deg,
+  #ff6501 0%,
+  rgba(16, 34, 56, 0) 98.46153846153847%
+ );
+ border-radius: 20px;
+}
+
+.about .contain .major .menu .swiper .item .background .description .header {
+ padding: 10px 50px 10px 50px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 25px;
+ font-weight: 700;
+ line-height: 2;
+ color: aliceblue;
+ text-align: left;
+}
+
+.about .contain .major .menu .swiper .item .background .description .detail {
+ padding: 10px 50px 50px 50px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 20px;
+ font-weight: 500;
+ color: rgb(149, 168, 185);
+ text-align: left;
+}
+
+.swiper-slide {
+ display: flex !important;
+ justify-content: center !important;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+ display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+ .about .contain .major {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .about .contain .major .title {
+  max-width: 768px;
+  position: relative;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+   150deg,
+   #ff6501 0%,
+   rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 60px;
+ }
+
+ .about .contain .major .brand {
+  position: relative;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+ }
+
+ .about .contain .major .brand .brand {
+  width: 924px;
+  height: 568px;
+  margin: 60px auto 30px auto;
+  z-index: 2;
+ }
+
+ .about .contain .major .brand .logo {
+  width: 1025px;
+  height: 222px;
+  position: relative;
+  margin: -240px 0 0 0;
+  z-index: 2;
+ }
+
+ .about .contain .brand .circle {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -600px;
+  z-index: 3;
+ }
+
+ .about .contain .brand .circular {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 50%;
+  filter: brightness(1.5) contrast(1.5);
+ }
+
+ .about .contain .brand .plane {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  font-size: 30px;
+  transform-origin: 0 250px;
+  animation: circularMove 10s linear infinite;
+  color: #ffffff;
+ }
+
+ .about .contain .brand .plane .ico {
+  rotate: (90deg);
+ }
+
+ @keyframes circularMove {
+  0% {
+   transform: rotate(0deg);
+  }
+  100% {
+   transform: rotate(360deg);
+  }
+ }
+
+ .about .contain .maps-legend {
+  max-width: 924px;
+  margin: -60px auto 0 auto;
+  height: auto;
+ }
+
+ .about .contain .maps-legend h3 {
+  max-width: 114px;
+  font-size: 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list {
+  max-width: 768px;
+  padding: 0px 20px 0 20px;
+ }
+
+ .about .contain .maps-legend .list .one h4 {
+  max-width: 130px;
+  font-size: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 12px 6px 12px;
+  margin: 0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #c00000;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list .one h5 {
+  max-width: 768px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 30px 6px 30px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  background-color: transparent;
+ }
+
+ .about .contain .maps-legend .list .two h4 {
+  max-width: 130px;
+  font-size: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 12px 6px 12px;
+  margin: 10px 0 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #1b2242;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list .two h5 {
+  max-width: 768px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 30px 6px 30px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  background-color: transparent;
+ }
+
+ .about .contain .maps-legend .list .three h4 {
+  max-width: 230px;
+  font-size: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 12px 6px 12px;
+  margin: 10px 0 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffbd0a;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list .three h5 {
+  max-width: 768px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 30px 6px 30px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  background-color: transparent;
+ }
+
+ .about .contain .major .menu {
+  max-width: 984px;
+ }
+
+ .about .contain .major .menu .description {
+  margin: 30px auto 0 auto;
+  max-width: 768px;
+  font-size: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #7b849f;
+  text-align: center;
+ }
+
+ .about .contain .major .menu .swiper {
+  margin: 10px auto 0px auto;
+  max-width: 884px;
+ }
+
+ .about .contain .major .menu .swiper .item {
+  gap: 20px;
+  padding: 0px 0px 60px 0px;
+  width: 276px;
+ }
+
+ .about .contain .major .menu .swiper .item .background {
+  width: 280px;
+  height: 469px;
+  background: linear-gradient(
+   0deg,
+   #ff6501 0%,
+   rgba(16, 34, 56, 0) 98.46153846153847%
+  );
+  border-radius: 20px;
+ }
+
+ .about .contain .major .menu .swiper .item .background .description .header {
+  padding: 10px 50px 10px 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+  color: aliceblue;
+  text-align: left;
+ }
+
+ .about .contain .major .menu .swiper .item .background .description .detail {
+  padding: 10px 50px 50px 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(149, 168, 185);
+  text-align: left;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ .about .contain .major {
+  max-width: 768px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .about .contain .major .title {
+  max-width: 668px;
+  position: relative;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+   150deg,
+   #ff6501 0%,
+   rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 60px;
+ }
+
+ .about .contain .major .brand {
+  position: relative;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+ }
+
+ .about .contain .major .brand .brand {
+  width: 668px;
+  height: 468px;
+  margin: 60px auto 30px auto;
+  z-index: 2;
+ }
+
+ .about .contain .major .brand .logo {
+  width: 1025px;
+  height: 222px;
+  position: relative;
+  margin: -240px 0 0 0;
+  z-index: 2;
+ }
+
+ .about .contain .brand .circle {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -500px;
+  z-index: 3;
+ }
+
+ .about .contain .brand .circular {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 50%;
+  filter: brightness(1.5) contrast(1.5);
+ }
+
+ .about .contain .brand .plane {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  font-size: 30px;
+  transform-origin: 0 200px;
+  animation: circularMove 10s linear infinite;
+  color: #ffffff;
+ }
+
+ .about .contain .brand .plane .ico {
+  rotate: (90deg);
+ }
+
+ @keyframes circularMove {
+  0% {
+   transform: rotate(0deg);
+  }
+  100% {
+   transform: rotate(360deg);
+  }
+ }
+
+ .about .contain .maps-legend {
+  max-width: 668px;
+  margin: -30px auto 0 auto;
+  height: auto;
+ }
+
+ .about .contain .maps-legend h3 {
+  max-width: 114px;
+  font-size: 18px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list {
+  max-width: 668px;
+  padding: 0px 20px 0 20px;
+ }
+
+ .about .contain .maps-legend .list .one h4 {
+  max-width: 130px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 12px 6px 12px;
+  margin: 0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #c00000;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list .one h5 {
+  max-width: 668px;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 30px 6px 30px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  background-color: transparent;
+ }
+
+ .about .contain .maps-legend .list .two h4 {
+  max-width: 130px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 12px 6px 12px;
+  margin: 10px 0 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #1b2242;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list .two h5 {
+  max-width: 668px;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 30px 6px 30px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  background-color: transparent;
+ }
+
+ .about .contain .maps-legend .list .three h4 {
+  max-width: 230px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 12px 6px 12px;
+  margin: 10px 0 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffbd0a;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list .three h5 {
+  max-width: 668px;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 30px 6px 30px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  background-color: transparent;
+ }
+
+ .about .contain .major .menu {
+  max-width: 984px;
+ }
+
+ .about .contain .major .menu .description {
+  margin: 30px auto 0 auto;
+  max-width: 568px;
+  font-size: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #7b849f;
+  text-align: center;
+ }
+
+ .about .contain .major .menu .swiper {
+  margin: 10px auto 0px auto;
+  max-width: 668px;
+ }
+
+ .about .contain .major .menu .swiper .item {
+  gap: 20px;
+  padding: 0px 0px 60px 0px;
+  width: 276px;
+ }
+
+ .about .contain .major .menu .swiper .item .background {
+  width: 310px;
+  height: 469px;
+  background: linear-gradient(
+   0deg,
+   #ff6501 0%,
+   rgba(16, 34, 56, 0) 98.46153846153847%
+  );
+  border-radius: 20px;
+ }
+
+ .about .contain .major .menu .swiper .item .background .description .header {
+  padding: 10px 50px 10px 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+  color: aliceblue;
+  text-align: left;
+ }
+
+ .about .contain .major .menu .swiper .item .background .description .detail {
+  padding: 10px 50px 50px 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(149, 168, 185);
+  text-align: left;
+ }
+}
+
+@media (min-width: 356px) and (max-width: 767px) {
+ .about .contain .major {
+  max-width: 356px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .about .contain .major .title {
+  max-width: 306px;
+  position: relative;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+   150deg,
+   #ff6501 0%,
+   rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 60px;
+ }
+
+ .about .contain .major .brand {
+  position: relative;
+  max-width: 306px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+ }
+
+ .about .contain .major .brand .brand {
+  width: 306px;
+  height: 206px;
+  margin: 30px auto 30px auto;
+  z-index: 2;
+ }
+
+ .about .contain .major .brand .logo {
+  width: 1025px;
+  height: 222px;
+  position: relative;
+  margin: -240px 0 0 0;
+  z-index: 2;
+ }
+
+ .about .contain .brand .circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -250px;
+  z-index: 3;
+ }
+
+ .about .contain .brand .circular {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 50%;
+  filter: brightness(1.5) contrast(1.5);
+ }
+
+ .about .contain .brand .plane {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  font-size: 30px;
+  transform-origin: 0 100px;
+  animation: circularMove 10s linear infinite;
+  color: #ffffff;
+ }
+
+ .about .contain .brand .plane img {
+  width: 20px;
+  height: 20px;
+ }
+
+ .about .contain .brand .plane .ico {
+  rotate: (90deg);
+ }
+
+ @keyframes circularMove {
+  0% {
+   transform: rotate(0deg);
+  }
+  100% {
+   transform: rotate(360deg);
+  }
+ }
+
+ .about .contain .maps-legend {
+  max-width: 306px;
+  margin: 0 auto 0 auto;
+  height: auto;
+ }
+
+ .about .contain .maps-legend h3 {
+  max-width: 94px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  padding: 4px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list {
+  max-width: 668px;
+  padding: 0px 20px 0 20px;
+ }
+
+ .about .contain .maps-legend .list .one h4 {
+  max-width: 90px;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 6px 6px 6px;
+  margin: 0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #c00000;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list .one h5 {
+  max-width: 306px;
+  font-size: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 30px 6px 30px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  background-color: transparent;
+ }
+
+ .about .contain .maps-legend .list .two h4 {
+  max-width: 90px;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 12px 6px 12px;
+  margin: 10px 0 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #1b2242;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list .two h5 {
+  max-width: 306px;
+  font-size: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 30px 6px 30px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  background-color: transparent;
+ }
+
+ .about .contain .maps-legend .list .three h4 {
+  max-width: 160px;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 12px 6px 12px;
+  margin: 10px 0 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffbd0a;
+  text-align: center;
+ }
+
+ .about .contain .maps-legend .list .three h5 {
+  max-width: 306px;
+  font-size: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  padding: 3px 30px 6px 30px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  background-color: transparent;
+ }
+
+ .about .contain .major .menu {
+  max-width: 356px;
+ }
+
+ .about .contain .major .menu .description {
+  margin: 30px auto 0 auto;
+  max-width: 306px;
+  font-size: 12px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 300;
+  color: #7b849f;
+  text-align: center;
+ }
+
+ .about .contain .major .menu .swiper {
+  margin: 10px auto 0px auto;
+  max-width: 306px;
+ }
+
+ .about .contain .major .menu .swiper .item {
+  gap: 30px;
+  padding: 0px 0px 60px 0px;
+  width: 276px;
+ }
+
+ .about .contain .major .menu .swiper .item .background {
+  width: 300px;
+  height: 369px;
+  background: linear-gradient(
+   0deg,
+   #ff6501 0%,
+   rgba(16, 34, 56, 0) 98.46153846153847%
+  );
+  border-radius: 20px;
+ }
+
+ .about .contain .major .menu .swiper .item .background .description .header {
+  padding: 10px 50px 10px 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+  color: aliceblue;
+  text-align: left;
+ }
+
+ .about .contain .major .menu .swiper .item .background .description .detail {
+  padding: 10px 50px 50px 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(149, 168, 185);
+  text-align: left;
+ }
+}

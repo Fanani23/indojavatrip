@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+ box-sizing: border-box;
+}
+
+.destination {
+ width: 100%;
+}
+
+.destination .contain {
+ height: auto;
+ width: 100%;
+ background-color: #ffffff;
+ margin: 0 auto;
+}
+
+.destination .contain .header .title {
+ position: relative;
+ text-align: center;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 40px;
+ font-weight: 700;
+ line-height: 1;
+ color: #29293a;
+ padding-top: 60px;
+ opacity: 0;
+ transition: opacity 0.5s ease;
+}
+
+.destination .contain .header .title.slide-in {
+ opacity: 1;
+}
+
+.destination .contain .header .detail {
+ margin: 10px auto 0 auto;
+ max-width: 768px;
+ font-size: 16px;
+ line-height: 1.6;
+ font-weight: 300;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ text-align: center;
+ color: #29293a;
+ opacity: 0;
+ transition: opacity 0.5s ease;
+}
+
+.destination .contain .header .detail.slide-in {
+ opacity: 1;
+}
+
+.destination .contain .body {
+ padding: 0px 0px 0px 0px;
+ opacity: 0;
+ transition: opacity 0.5s ease;
+}
+
+.destination .contain .body.slide-in {
+ opacity: 1;
+}
+
+.destination .contain .body .menu {
+ margin: 20px auto 0px auto;
+ max-width: 984px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 30px;
+}
+
+.destination .contain .body .menu > * {
+ margin-bottom: 30px;
+}
+
+.destination .contain .body .menu .item {
+ position: relative;
+ background-color: #e7e7e7;
+ border-radius: 20px;
+ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+ display: flex;
+ flex-direction: column;
+ width: 295px;
+ gap: 10px;
+}
+
+.destination .contain .body .menu .item .img {
+ width: 295px;
+ height: 245px;
+ border-radius: 20px 20px 0px 0px;
+ cursor: pointer;
+ object-fit: cover;
+}
+
+.destination .contain .body .menu .item .img:hover {
+ opacity: 0.9;
+ transition: 0s;
+ color: #29293a;
+ cursor: pointer;
+}
+
+.destination .contain .body .menu .item .label {
+ position: absolute;
+ top: -2px;
+ right: 15px;
+ width: 40px;
+ height: 40px;
+ filter: drop-shadow(2px 2px 2px #000000);
+ -webkit-filter: drop-shadow(2px 2px 2px #000000);
+ -moz-filter: drop-shadow(2px 2px 2px #000000);
+}
+
+.destination .contain .body .menu .item .star {
+ color: orange;
+ position: absolute;
+ right: 0;
+ top: 250px;
+ padding: 1px 10px 3px 10px;
+ border-radius: 0px 0px 0px 3px;
+}
+
+.destination .contain .body .menu .item .star .full {
+ color: gold;
+}
+
+.destination .contain .body .menu .item .star .half {
+ color: silver;
+}
+
+.destination .contain .body .menu .item .head {
+ padding: 0px 20px 0px 20px;
+ width: 100%;
+ margin-top: 10px;
+ text-align: left;
+ overflow-y: auto;
+ font-size: 10px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 400;
+ cursor: pointer;
+ color: #ff6501;
+}
+
+.destination .contain .body .menu .item .title {
+ padding: 0px 20px 20px 20px;
+ margin-top: -15px;
+ width: 100%;
+ text-align: left;
+ overflow-y: auto;
+ font-size: 16px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 700;
+ cursor: pointer;
+ color: #000000;
+ text-decoration: none;
+}
+
+.destination .contain .body .menu .item .title:hover {
+ padding: 0px 20px 20px 20px;
+ width: 100%;
+ text-align: left;
+ overflow-y: auto;
+ font-size: 16px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 700;
+ cursor: pointer;
+ color: #ff6501;
+ text-decoration: none;
+}
+
+.destination .contain .body .menu .item .detail {
+ margin-top: -15px;
+ padding: 0px 20px 30px 20px;
+ width: 100%;
+ text-align: left;
+ overflow-y: auto;
+ font-size: 12px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-weight: 400;
+ cursor: pointer;
+ color: #63656e;
+}
+
+.destination .contain .body .button {
+ position: relative;
+ width: 260px;
+ margin: 30px auto 30px auto;
+ padding: 16px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 18px;
+ font-weight: 500;
+ cursor: pointer;
+ border-radius: 5px;
+ color: #ffffff;
+ background-color: #000000;
+ text-align: center;
+ z-index: 2;
+ text-decoration: none;
+}
+
+.destination .contain .body .button:hover {
+ position: relative;
+ width: 260px;
+ margin: 30px auto 30px auto;
+ padding: 16px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 18px;
+ font-weight: 500;
+ cursor: pointer;
+ border-radius: 5px;
+ color: #ffffff;
+ background-color: #ff6501;
+ text-align: center;
+ z-index: 2;
+ text-decoration: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ .destination .contain .header .detail {
+  margin: 10px auto 0 auto;
+  max-width: 668px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  color: #29293a;
+ }
+
+ .destination .contain .body .menu .item .head {
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ff6501;
+ }
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+ .destination .contain .header .title {
+  position: relative;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  color: #29293a;
+  padding-top: 60px;
+ }
+
+ .destination .contain .header .detail {
+  margin: 10px auto 0 auto;
+  max-width: 306px;
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  color: #29293a;
+ }
+
+ .destination .contain .body .menu {
+  margin: 20px auto 0px auto;
+  max-width: 768px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+ }
+
+ .destination .contain .body .menu > * {
+  margin-bottom: 20px;
+ }
+
+ .destination .contain .body .menu .item {
+  position: relative;
+  background-color: #e7e7e7;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  width: 178px;
+  gap: 10px;
+ }
+
+ .destination .contain .body .menu .item .img {
+  width: 178px;
+  height: 105px;
+  border-radius: 20px 20px 0px 0px;
+  cursor: pointer;
+  object-fit: cover;
+ }
+
+ .destination .contain .body .menu .item .img:hover {
+  opacity: 0.9;
+  transition: 0s;
+  color: #29293a;
+  cursor: pointer;
+ }
+
+ .destination .contain .body .menu .item .label {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  filter: drop-shadow(2px 2px 2px #000000);
+  -webkit-filter: drop-shadow(2px 2px 2px #000000);
+  -moz-filter: drop-shadow(2px 2px 2px #000000);
+ }
+
+ .destination .contain .body .menu .item .star {
+  color: orange;
+  position: absolute;
+  right: 0;
+  top: 105px;
+  padding: 1px 10px 3px 10px;
+  border-radius: 0px 0px 0px 3px;
+  font-size: 10px;
+ }
+
+ .destination .contain .body .menu .item .star .full {
+  color: gold;
+ }
+
+ .destination .contain .body .menu .item .star .half {
+  color: silver;
+ }
+
+ .destination .contain .body .menu .item .head {
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ff6501;
+ }
+
+ .destination .contain .body .menu .item .title {
+  padding: 0px 20px 20px 20px;
+  margin-top: -15px;
+  width: 100%;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+ }
+
+ .destination .contain .body .menu .item .title:hover {
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: #ff6501;
+  text-decoration: none;
+ }
+
+ .destination .contain .body .menu .item .detail {
+  margin-top: -15px;
+  padding: 0px 20px 10px 20px;
+  width: 100%;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  color: #63656e;
+ }
+
+ .destination .contain .body .button {
+  position: relative;
+  width: 260px;
+  margin: 30px auto 30px auto;
+  padding: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  z-index: 2;
+  text-decoration: none;
+ }
+
+ .destination .contain .body .button:hover {
+  position: relative;
+  width: 260px;
+  margin: 30px auto 30px auto;
+  padding: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #ff6501;
+  text-align: center;
+  z-index: 2;
+  text-decoration: none;
+ }
+}
+
+@media (min-width: 356px) and (max-width: 399px) {
+ .destination .contain .header .title {
+  position: relative;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  color: #29293a;
+  padding-top: 60px;
+ }
+
+ .destination .contain .header .detail {
+  margin: 10px auto 0 auto;
+  max-width: 306px;
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  color: #29293a;
+ }
+
+ .destination .contain .body .menu {
+  margin: 20px auto 0px auto;
+  max-width: 306px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+ }
+
+ .destination .contain .body .menu > * {
+  margin-bottom: 20px;
+ }
+
+ .destination .contain .body .menu .item {
+  position: relative;
+  background-color: #e7e7e7;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  width: 138px;
+  gap: 10px;
+ }
+
+ .destination .contain .body .menu .item .img {
+  width: 138px;
+  height: 105px;
+  border-radius: 20px 20px 0px 0px;
+  cursor: pointer;
+  object-fit: cover;
+ }
+
+ .destination .contain .body .menu .item .img:hover {
+  opacity: 0.9;
+  transition: 0s;
+  color: #29293a;
+  cursor: pointer;
+ }
+
+ .destination .contain .body .menu .item .label {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  filter: drop-shadow(2px 2px 2px #000000);
+  -webkit-filter: drop-shadow(2px 2px 2px #000000);
+  -moz-filter: drop-shadow(2px 2px 2px #000000);
+ }
+
+ .destination .contain .body .menu .item .star {
+  color: orange;
+  position: absolute;
+  right: 0;
+  top: 105px;
+  padding: 1px 10px 3px 10px;
+  border-radius: 0px 0px 0px 3px;
+  font-size: 10px;
+ }
+
+ .destination .contain .body .menu .item .star .full {
+  color: gold;
+ }
+
+ .destination .contain .body .menu .item .star .half {
+  color: silver;
+ }
+
+ .destination .contain .body .menu .item .head {
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ff6501;
+ }
+
+ .destination .contain .body .menu .item .title {
+  padding: 0px 20px 20px 20px;
+  margin-top: -15px;
+  width: 100%;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+ }
+
+ .destination .contain .body .menu .item .title:hover {
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: #ff6501;
+  text-decoration: none;
+ }
+
+ .destination .contain .body .menu .item .detail {
+  margin-top: -15px;
+  padding: 0px 20px 10px 20px;
+  width: 100%;
+  text-align: left;
+  overflow-y: auto;
+  font-size: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  color: #63656e;
+ }
+
+ .destination .contain .body .button {
+  position: relative;
+  width: 260px;
+  margin: 30px auto 30px auto;
+  padding: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  z-index: 2;
+  text-decoration: none;
+ }
+
+ .destination .contain .body .button:hover {
+  position: relative;
+  width: 260px;
+  margin: 30px auto 30px auto;
+  padding: 16px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #ff6501;
+  text-align: center;
+  z-index: 2;
+  text-decoration: none;
+ }
+}

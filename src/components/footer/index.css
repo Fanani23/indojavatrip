@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+ box-sizing: border-box;
+}
+
+.footer {
+ width: 100%;
+}
+
+.footer .contain {
+ width: 100%;
+ height: auto;
+ background-color: #000000;
+}
+
+.footer .contain .body {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ max-width: 1280px;
+ margin: 0 auto;
+ padding: 120px 0 30px 0;
+}
+
+.footer .contain .body .brand img {
+ width: 170px;
+ height: 33px;
+}
+
+.footer .contain .body .brand .detail {
+ margin-top: 30px;
+ max-width: 370px;
+ text-align: left;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 16px;
+ font-weight: 600;
+ color: #7b849f;
+}
+
+.footer .contain .body .links .header {
+ max-width: 370px;
+ text-align: left;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 20px;
+ font-weight: 600;
+ color: #ffffff;
+ margin-bottom: 30px;
+}
+
+.footer .contain .body .links .item {
+ margin-bottom: 10px;
+ max-width: 370px;
+ text-align: left;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 16px;
+ font-weight: 600;
+ color: #7b849f;
+ cursor: pointer;
+}
+
+.footer .contain .body .category {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ list-style-type: none;
+}
+
+.footer .contain .body .category .header {
+ max-width: 370px;
+ text-align: left;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 20px;
+ font-weight: 600;
+ color: #ffffff;
+ margin-bottom: 30px;
+}
+
+.footer .contain .body .category .item {
+ margin-bottom: 10px;
+ max-width: 370px;
+ text-align: left;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 16px;
+ font-weight: 600;
+ color: #7b849f;
+ text-decoration: none;
+}
+
+.footer .contain .body .connection .header {
+ max-width: 370px;
+ text-align: left;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 20px;
+ font-weight: 600;
+ color: #ffffff;
+ margin-bottom: 30px;
+}
+
+.footer .contain .body .connection .item {
+ margin-bottom: 10px;
+ max-width: 370px;
+ text-align: left;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 16px;
+ font-weight: 600;
+ color: #7b849f;
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+ align-items: center;
+}
+
+.footer .contain .body .connection .item p {
+ margin: 0;
+}
+
+.footer .contain .body .social .header {
+ max-width: 370px;
+ text-align: left;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 20px;
+ font-weight: 600;
+ color: #ffffff;
+ margin-bottom: 30px;
+}
+
+.footer .contain .body .social .item {
+ margin-bottom: 10px;
+ max-width: 370px;
+ text-align: left;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 16px;
+ font-weight: 600;
+ color: #7b849f;
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+ align-items: center;
+ cursor: pointer;
+}
+
+.footer .contain .body .social .item p {
+ margin: 0;
+ cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ .footer .contain .body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 668px;
+  margin: 0 auto;
+  padding: 120px 0 30px 0;
+ }
+
+ .footer .contain .body .brand img {
+  width: 140px;
+  height: 27px;
+ }
+
+ .footer .contain .body .brand .detail {
+  margin-top: 20px;
+  max-width: 150px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7b849f;
+ }
+
+ .footer .contain .body .links .header {
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+ }
+
+ .footer .contain .body .links .item {
+  margin-bottom: 10px;
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7b849f;
+ }
+
+ .footer .contain .body .category .header {
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+ }
+
+ .footer .contain .body .category .item {
+  margin-bottom: 10px;
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7b849f;
+ }
+
+ .footer .contain .body .connection .header {
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+ }
+
+ .footer .contain .body .connection .item {
+  margin-bottom: 10px;
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7b849f;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+ }
+
+ .footer .contain .body .connection .item p {
+  margin: 0;
+ }
+
+ .footer .contain .body .social .header {
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+ }
+
+ .footer .contain .body .social .item {
+  margin-bottom: 10px;
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #7b849f;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+ }
+
+ .footer .contain .body .social .item p {
+  margin: 0;
+ }
+}
+
+@media (min-width: 356px) and (max-width: 767px) {
+ .footer .contain .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 306px;
+  margin: 0 auto;
+  padding: 90px 0 30px 0;
+  gap: 20px;
+ }
+
+ .footer .contain .body .brand img {
+  width: 140px;
+  height: 27px;
+ }
+
+ .footer .contain .body .brand .detail {
+  margin-top: 20px;
+  max-width: 250px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7b849f;
+  margin-bottom: 10px;
+ }
+
+ .footer .contain .body .links .header {
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+ }
+
+ .footer .contain .body .links .item {
+  margin-bottom: 10px;
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7b849f;
+ }
+
+ .footer .contain .body .category .header {
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+ }
+
+ .footer .contain .body .category .item {
+  margin-bottom: 10px;
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7b849f;
+ }
+
+ .footer .contain .body .connection .header {
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+ }
+
+ .footer .contain .body .connection .item {
+  margin-bottom: 10px;
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7b849f;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+ }
+
+ .footer .contain .body .connection .item p {
+  margin: 0;
+ }
+
+ .footer .contain .body .social .header {
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+ }
+
+ .footer .contain .body .social .item {
+  margin-bottom: 10px;
+  max-width: 270px;
+  text-align: left;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7b849f;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+ }
+
+ .footer .contain .body .social .item p {
+  margin: 0;
+ }
+}

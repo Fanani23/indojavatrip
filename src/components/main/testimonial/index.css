@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+ box-sizing: border-box;
+}
+
+.testimonial {
+ width: 100%;
+}
+
+.testimonial .contain {
+ width: 100%;
+ height: auto;
+ background-color: #000000;
+}
+
+.testimonial .contain .header .title {
+ margin: 0 auto;
+ max-width: 768px;
+ position: relative;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 40px;
+ font-weight: 700;
+ line-height: 1;
+ text-align: center;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ background-image: linear-gradient(
+  150deg,
+  #ff6501 0%,
+  rgba(255, 255, 255, 1) 100%
+ );
+ padding-top: 60px;
+}
+
+.testimonial .contain .header .detail {
+ margin: 10px auto 0 auto;
+ max-width: 768px;
+ font-size: 16px;
+ line-height: 1.6;
+ font-weight: 300;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ text-align: center;
+ color: #7b849f;
+}
+
+.testimonial .contain .body {
+ margin: 10px auto 0px auto;
+ max-width: 984px;
+}
+
+.testimonial .contain .body .swiper {
+ margin: 10px auto 0px auto;
+ max-width: 984px;
+}
+
+.testimonial .contain .body .swiper .item {
+ gap: 20px;
+ padding: 0px 0px 60px 0px;
+ width: 306px;
+}
+
+.testimonial .contain .body .swiper .item .background {
+ width: 310px;
+ height: 269px;
+ background-color: #e7e7e7;
+ border-radius: 20px;
+}
+
+.testimonial .contain .body .swiper .item .background .description .star {
+ color: orange;
+ position: absolute;
+ left: 50px;
+ top: 20px;
+ padding: 1px 10px 3px 10px;
+ border-radius: 0px 0px 0px 3px;
+}
+
+.testimonial .contain .body .swiper .item .background .description .star .full {
+ color: gold;
+}
+
+.testimonial .contain .body .swiper .item .background .description .star .half {
+ color: silver;
+}
+
+.testimonial .contain .body .swiper .item .background .description .header {
+ padding: 40px 50px 10px 50px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 20px;
+ font-weight: 700;
+ line-height: 2;
+ color: #000000;
+ text-align: left;
+}
+
+.testimonial .contain .body .swiper .item .background .description .detail {
+ padding: 0px 50px 50px 50px;
+ font-family: 'Plus Jakarta Sans', sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+ color: #63656e;
+ text-align: left;
+}
+
+.swiper-slide {
+ display: flex !important;
+ justify-content: center !important;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ .testimonial .contain .header .title {
+  margin: 0 auto;
+  max-width: 668px;
+  position: relative;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+   150deg,
+   #ff6501 0%,
+   rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 60px;
+ }
+
+ .testimonial .contain .header .detail {
+  margin: 10px auto 0 auto;
+  max-width: 568px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  color: #7b849f;
+ }
+
+ .testimonial .contain .body {
+  margin: 10px auto 0px auto;
+  max-width: 668px;
+ }
+
+ .testimonial .contain .body .swiper {
+  margin: 10px auto 0px auto;
+  max-width: 668px;
+ }
+
+ .testimonial .contain .body .swiper .item {
+  gap: 20px;
+  padding: 0px 0px 60px 0px;
+  width: 306px;
+ }
+
+ .testimonial .contain .body .swiper .item .background {
+  width: 310px;
+  height: 269px;
+  background-color: #e7e7e7;
+  border-radius: 20px;
+ }
+
+ .testimonial .contain .body .swiper .item .background .description .star {
+  color: orange;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  padding: 1px 10px 3px 10px;
+  border-radius: 0px 0px 0px 3px;
+ }
+
+ .testimonial
+  .contain
+  .body
+  .swiper
+  .item
+  .background
+  .description
+  .star
+  .full {
+  color: gold;
+ }
+
+ .testimonial
+  .contain
+  .body
+  .swiper
+  .item
+  .background
+  .description
+  .star
+  .half {
+  color: silver;
+ }
+
+ .testimonial .contain .body .swiper .item .background .description .header {
+  padding: 40px 50px 10px 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+  color: #000000;
+  text-align: left;
+ }
+
+ .testimonial .contain .body .swiper .item .background .description .detail {
+  padding: 0px 50px 50px 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #63656e;
+  text-align: left;
+ }
+}
+
+@media (min-width: 356px) and (max-width: 767px) {
+ .testimonial .contain .header .title {
+  margin: 0 auto;
+  max-width: 306px;
+  position: relative;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+   150deg,
+   #ff6501 0%,
+   rgba(255, 255, 255, 1) 100%
+  );
+  padding-top: 60px;
+ }
+
+ .testimonial .contain .header .detail {
+  margin: 10px auto 0 auto;
+  max-width: 306px;
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  color: #7b849f;
+ }
+
+ .testimonial .contain .body {
+  margin: 10px auto 0px auto;
+  max-width: 356px;
+ }
+
+ .testimonial .contain .body .swiper {
+  margin: 10px auto 0px auto;
+  max-width: 356px;
+ }
+
+ .testimonial .contain .body .swiper .item {
+  gap: 20px;
+  padding: 0px 0px 60px 0px;
+  width: 306px;
+ }
+
+ .testimonial .contain .body .swiper .item .background {
+  width: 306px;
+  height: 269px;
+  background-color: #e7e7e7;
+  border-radius: 20px;
+ }
+
+ .testimonial .contain .body .swiper .item .background .description .star {
+  color: orange;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  padding: 1px 10px 3px 10px;
+  border-radius: 0px 0px 0px 3px;
+ }
+
+ .testimonial
+  .contain
+  .body
+  .swiper
+  .item
+  .background
+  .description
+  .star
+  .full {
+  color: gold;
+ }
+
+ .testimonial
+  .contain
+  .body
+  .swiper
+  .item
+  .background
+  .description
+  .star
+  .half {
+  color: silver;
+ }
+
+ .testimonial .contain .body .swiper .item .background .description .header {
+  padding: 40px 40px 10px 40px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2;
+  color: #000000;
+  text-align: left;
+ }
+
+ .testimonial .contain .body .swiper .item .background .description .detail {
+  padding: 0px 40px 50px 40px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #63656e;
+  text-align: left;
+ }
+}
